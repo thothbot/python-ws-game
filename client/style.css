@@ -1,0 +1,135 @@
+* {
+    font-family: DejaVu Sans Mono,Bitstream Vera Sans Mono,monospace !important;
+    background-color: black;
+    color: silver;
+    font-size: 11pt;
+    text-align:center;
+    line-height: 1.2em;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    border: 1px solid;
+    padding: 0.5em;
+    border-color: silver;
+    background: black;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+}
+
+button {
+    border: 0;
+    text-align: center;
+    background: silver;
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.game {
+    padding: 20px 0;
+}
+
+.userForm {
+    padding-bottom: 20px;
+}
+
+.players {
+    width: 13em;
+    margin: 0 auto;
+    color: white;
+    vertical-align: top;
+}
+
+.players .name {
+    width: 10em;
+    text-align: left;
+}
+.players .score {
+    width: 3em;
+    text-align: right;
+}
+
+.players div {
+    display: inline-block;
+}
+
+#status {
+    margin-bottom: 40px;
+    color: white;
+}
+
+#username {
+    font-weight: bold;
+}
+
+#userButtons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#userButtons button {
+    padding: 1em;
+}
+
+#btnDisconnect {
+    color: black;
+}
+
+#btnStop {
+    display: none;
+}
+
+#playScreen {
+    display: none;
+}
+
+#connectForm{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+#worldHolder {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid;
+    border-color: silver;
+    padding: 0.3em;
+    line-height: 1em;
+}
+
+#worldHolder td {
+    font-size: 2em;
+}
+
+#world {
+    padding:0;
+    border:0;
+    margin:0;
+    line-height: 1em;
+    table-layout: fixed
+}
+
+#world .td {
+    width: 1em;
+    height: 1em;
+
+    padding:0;
+    margin:0;
+    line-height: 1em;
+}
