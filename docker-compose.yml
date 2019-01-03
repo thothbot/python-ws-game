@@ -1,0 +1,10 @@
+version: "2"
+services:
+    web:
+        build: .
+        command: python /app/server/server.py
+        volumes:
+            - .:/app
+        stdin_open: true
+        ports:
+            - "5000:5000"

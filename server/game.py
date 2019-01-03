@@ -54,9 +54,7 @@ class Game:
             self.send_personal(player.ws, "error", "Maximum players reached")
             return
 
-        # init snake
         player.start()
-        # notify all about new player
         self.send_all("joined", player._id, player.name, 0)
 
         self.running = False

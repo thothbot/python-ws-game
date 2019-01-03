@@ -56,14 +56,12 @@
 
     function messageHandler(e){
         json = JSON.parse(e.data);
-        console.log(json);
         if (!(json[0] instanceof Array))
             json = [json];
 
         for(var i = 0; i < json.length; i++){
             var args = json[i];
             var cmd = json[i][0];
-            console.log(cmd);
             switch(cmd){
                 case("handshake"):
                     $("#username").text(args[1]);
